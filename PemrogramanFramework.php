@@ -1,10 +1,11 @@
 <?php
-//class mobil 
 Class Mobil{
-public $nama; public $merk;
+public $nama;
+public $merk;
 
 function getInfo(){
-echo "Nama mobil: ".$this->nama."<br/>"; echo "Merk: ".$this->merk."<br/>";
+echo "Nama mobil: ".$this->nama."<br/>"; 
+echo "Merk: ".$this->merk."<br/>";
 }
 }
 
